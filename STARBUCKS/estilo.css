@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.caja-principal{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/*Encabezado*/
+
+.Encabezado{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #01733a ;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    
+}
+
+.Logos{
+    height: 50px;
+}
+
+.menu{
+    display: flex;;
+    gap: 3rem;
+}
+
+a.HOME{
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    font-family: 'HIKOU-REGULAR', 'Anton', sans-serif;
+    font-weight: 600;
+}
+
+a.PRODUCTOS{
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    font-family:'HIKOU-REGULAR', 'Anton', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+a.SUCURSALES{
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    font-family:'HIKOU-REGULAR', 'Anton', sans-serif;
+    font-weight: 600;
+    
+}
+
+/*2da sección*/
+
+.pag_bienvenida{
+    position: relative;
+    display: flex;
+    background: white;
+    align-items: center;
+    /* padding: 2rem; */
+    justify-content: center;
+}
+
+.pag_bienvenida img{
+    position: relative;
+    display: flex;
+    background: white;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: center;
+   /*  height: 70%; */
+    width: 90%;
+}
+
+.pag_bienvenida h2{
+    font-size: 2rem;
+    color: #01733a;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 170px;
+   /*  transform: translate(-50%, -50%); */
+}
+
+.pag_bienvenida h4{
+    font-size: 1.3rem;
+    color: black;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 130px;
+   /*  transform: translate(-50%, -50%); */
+}
+
+.pag_bienvenida button{
+    font-size: 1rem;
+    color: green;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 80px;
+    height: 30px;
+    width: 100px;
+    border-radius: 2rem;
+   /*  transform: translate(-50%, -50%); */
+}
